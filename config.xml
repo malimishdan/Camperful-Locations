@@ -6,10 +6,10 @@
         id        = "com.camperful.camperful"
         version   = "1.0.0">
 
-    <name>Camperful Notifications</name>
+    <name>Camperful Locations</name>
 
     <description>
-        Camperful Notifications
+        Camperful Locations
     </description>
 
     <author href="http://camperful.com" email="support@camperful.com">
