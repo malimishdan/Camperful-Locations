@@ -42,9 +42,9 @@
 									'Heading: ' + position.coords.heading + '<br />' + 
 									'Speed: ' + position.coords.speed + '<br />' + 
 									'Timestamp: ' + position.timestamp + '<br />' + 
-									'<br /><a class="button" href="http://www.malimish.com/_locate.php?lat=' + position.coords.latitude + '&long=' + position.coords.longitude + '&alt=' + position.coords.altitude + '&heading=' + position.coords.heading + '&speed=' + position.coords.speed + '&time=' + position.coords.timestamp + '">Log This Location</a><br />' + 
-									'<br /><a  class="button" href="geo:0,0?q=' + position.coords.latitude + ',' + position.coords.longitude + '">Open In Google Maps</a><br />' + 
-									'<br /><a class="button" href="http://www.malimish.com/_viewMap.php">View Logged Locations</a><br />' + 
+									'<a class="button" href="http://www.malimish.com/_locate.php?lat=' + position.coords.latitude + '&long=' + position.coords.longitude + '&alt=' + position.coords.altitude + '&heading=' + position.coords.heading + '&speed=' + position.coords.speed + '&time=' + position.coords.timestamp + '">Log This Location</a><br />' + 
+									'<a  class="button" href="geo:0,0?q=' + position.coords.latitude + ',' + position.coords.longitude + '">Open In Google Maps</a><br />' + 
+									'<a class="button" href="http://www.malimish.com/_viewMap.php">View Logged Locations</a><br />' + 
 									'<br /><a href="javascript:startGeoLocate();">Reload</a><br />';
 									
 									
@@ -66,6 +66,7 @@
 				<p id="geolocation">
 					Finding geolocation...<br />
 					<br />
+					<a class="button" href="http://www.malimish.com/_viewMap.php">View Logged Locations</a>
 					<br />
 					Or you can try to <a href="javascript:startGeoLocate();">reload</a>.
 				</p>
